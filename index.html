@@ -1,43 +1,71 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Relative Paths Assignment 1</title>
+    <title>About Me</title>
 
-  <!-- Fill in the href to the CSS such that this HTML file can access the CSS. -->
-  <!-- Don't move the HTML or CSS file. Use Relative Linking -->
-  
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  
+    <!--Links to Bootstrap & CSS Files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+
 </head>
 
 <body>
-  <header>
-    <h1>Student Bio</h1>
-  </header>
 
-  <div class="container">
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-light bg-light">
 
-    <section id="main-bio">
+        <span class="navbar-brand mb-0 h1">Minju Brown</span>
 
-      <h2>Minju Brown/h2>
+        <div class="d-flex flex-row-reverse bd-highlight">
+            <div class="p-2 bd-highlight">
+                <a href="contact.html">Contact</a>
+            </div>
 
-      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+            <div class="p-2 bd-highlight">
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+            <div class="p-2 bd-highlight">
+                <a href="index.html">About</a>
+            </div>
+        </div>
 
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
+    </nav>
 
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
-  </div>
+
+
+    <div class="mainContent">
+
+        <!-- Main Section Heading-->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="contentTitle"> About Me </h1>
+            </div>
+        </div>
+
+        <!-- My Picture & Bio -->
+        <div class="row">
+            <div class="col-md-12" id="myBio">
+                <img src="images/myPic.jpg" class="auth-image" alt="Minju" id="myPic">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla
+                    pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+
+                <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Document Footer -->
+    <div class="footer">
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </div>
+
 
 </body>
 

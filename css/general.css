@@ -1,0 +1,91 @@
+/* Navigation Bar CSS*/
+
+.navbar {
+    padding-left: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+    border-left: 0 none;
+    margin-top: 25px;
+}
+
+.navbar-brand {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    margin-left: 145px;
+}
+
+nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+}
+
+
+/* General Body CSS*/
+
+body {
+    background: url("../images/halftone.png");
+}
+
+.mainContent {
+    width: 100%;
+    max-width: 960px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.contentTitle {
+    margin-bottom: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+}
+
+h3,
+h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+
+/* footer */
+
+.footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+}
