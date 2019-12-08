@@ -16,7 +16,9 @@
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/grayscale.css" rel="stylesheet">
@@ -29,7 +31,9 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">To Main Page</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
@@ -66,55 +70,116 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-white mb-4">Minju Brown</h2>
-          <p class="text-white-50">My name is Minju Brown. I graduated from James Madison University with degree in Computer Information Systems. I'm currently enrolled in Full Stack Coding Bootcamp to learn programming languages in depth. I hope to use the skills learned in class to start a career as a developer.</p>
+          <p class="text-white-50">My name is Minju Brown. I graduated from James Madison University with degree in
+            Computer Information Systems. I'm currently enrolled in Full Stack Coding Bootcamp to learn programming
+            languages in depth. I hope to use the skills learned in class to start a career as a developer.</p>
         </div>
       </div>
       <img src="img/myPic.jpg" class="img-fluid" alt="" id="myPic">
     </div>
   </section>
 
+
+
   <!-- Projects Section -->
   <section id="projects" class="projects-section bg-light">
-    <div class="container">
 
+    <!-- Sliders for Projects -->
+    <div class="container" id="slider">
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="bd-example">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://brownmj93.github.io/RecipeApp/"><img src="img/project1.png"
+                    class="d-block w-100 slider_img" alt="Recipe App"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://project2-mmmw.herokuapp.com/"><img src="img/project2.png"
+                    class="d-block w-100 slider_img" alt="Breakfast Club"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="img/comingsoon.png"
+                    class="d-block w-100 slider_img" alt="Project3"></a>
+                    
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Project 3 Coming Soon!</h5>
+                      </div>
+              </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
           <!-- <img class="img-fluid" src="img/demo-image-01.jpg" alt=""> -->
-          <a href = "https://brownmj93.github.io/Word-Guess-Game/"><img class="img-fluid" src="img/technics-q-c-640-480-1.jpg" alt="Word Guess"></a>
-          <a class="text-white description" href = "https://brownmj93.github.io/Word-Guess-Game/" ><h3 class="description">Word Guess Game</h3></a>
-          
+          <a href="https://brownmj93.github.io/Word-Guess-Game/"><img class="img-fluid"
+              src="img/technics-q-c-640-480-1.jpg" alt="Word Guess"></a>
+          <a class="text-white description" href="https://brownmj93.github.io/Word-Guess-Game/">
+            <h3 class="description">Word Guess Game</h3>
+          </a>
+
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
-            
-              
+
+
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <a href = "https://brownmj93.github.io/GIPHY/" class="text-white"><h4 class="text-white">GIPHY</h4></a>
-                <p class="mb-0 text-white-50">The objective of this homework is to incorporate Giphy API in our javascript. Buttons were created from array list and data value of the button was used as a search parameter for the giphy. It also includes option for a user to enter a movie of their choice into an array.</p>
+                <a href="https://brownmj93.github.io/GIPHY/" class="text-white">
+                  <h4 class="text-white">GIPHY</h4>
+                </a>
+                <p class="mb-0 text-white-50">The objective of this homework is to incorporate Giphy API in our
+                  javascript. Buttons were created from array list and data value of the button was used as a search
+                  parameter for the giphy. It also includes option for a user to enter a movie of their choice into an
+                  array.</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
-              </div>
-            
+          </div>
+
         </div>
       </div>
 
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <a href = "https://brownmj93.github.io/TriviaGame/"><img class="img-fluid" src="img/technics-q-c-640-480-5.jpg" alt="Trivia Game" ></a>
-          <a href = "https://brownmj93.github.io/TriviaGame/" class="description"><h3 class="description m-0">Trivia Game</h3></a>
-          
+          <a href="https://brownmj93.github.io/TriviaGame/"><img class="img-fluid" src="img/technics-q-c-640-480-5.jpg"
+              alt="Trivia Game"></a>
+          <a href="https://brownmj93.github.io/TriviaGame/" class="description">
+            <h3 class="description m-0">Trivia Game</h3>
+          </a>
+
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <a href = "https://brownmj93.github.io/trainScheduler/" class="text-white"><h4 class="text-white">Train Scheduler</h4></a>
-                <p class="mb-0 text-white-50">This page allows the user to type in information to calculate when the next train will be. The information is stored in Firebase Database and displayed in a table.</p>
-                
+                <a href="https://brownmj93.github.io/trainScheduler/" class="text-white">
+                  <h4 class="text-white">Train Scheduler</h4>
+                </a>
+                <p class="mb-0 text-white-50">This page allows the user to type in information to calculate when the
+                  next train will be. The information is stored in Firebase Database and displayed in a table.</p>
+
               </div>
             </div>
           </div>
