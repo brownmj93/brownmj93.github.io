@@ -1,3 +1,4 @@
+
 (function($) {
   "use strict"; // Start of use strict
 
@@ -40,3 +41,5 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+
+
